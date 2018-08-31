@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6009E5121392ED500B916F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6009E5021392ED500B916F1 /* AppDelegate.swift */; };
+		B6009E5321392ED500B916F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6009E5221392ED500B916F1 /* ViewController.swift */; };
+		B6009E5621392ED500B916F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6009E5421392ED500B916F1 /* Main.storyboard */; };
+		B6009E5821392ED700B916F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6009E5721392ED700B916F1 /* Assets.xcassets */; };
+		B6009E5B21392ED700B916F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6009E5921392ED700B916F1 /* LaunchScreen.storyboard */; };
+		B6009E6621392ED700B916F1 /* FindMyTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6009E6521392ED700B916F1 /* FindMyTVTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6009E6221392ED700B916F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6009E4521392ED500B916F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6009E4C21392ED500B916F1;
+			remoteInfo = FindMyTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6009E4D21392ED500B916F1 /* FindMyTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6009E5021392ED500B916F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6009E5221392ED500B916F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6009E5521392ED500B916F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6009E5721392ED700B916F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6009E5A21392ED700B916F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6009E5C21392ED700B916F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6009E6121392ED700B916F1 /* FindMyTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6009E6521392ED700B916F1 /* FindMyTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyTVTests.swift; sourceTree = "<group>"; };
+		B6009E6721392ED700B916F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6009E4A21392ED500B916F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6009E5E21392ED700B916F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6009E4421392ED500B916F1 = {
+			isa = PBXGroup;
+			children = (
+				B6009E4F21392ED500B916F1 /* FindMyTV */,
+				B6009E6421392ED700B916F1 /* FindMyTVTests */,
+				B6009E4E21392ED500B916F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6009E4E21392ED500B916F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6009E4D21392ED500B916F1 /* FindMyTV.app */,
+				B6009E6121392ED700B916F1 /* FindMyTVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6009E4F21392ED500B916F1 /* FindMyTV */ = {
+			isa = PBXGroup;
+			children = (
+				B6009E5021392ED500B916F1 /* AppDelegate.swift */,
+				B6009E5221392ED500B916F1 /* ViewController.swift */,
+				B6009E5421392ED500B916F1 /* Main.storyboard */,
+				B6009E5721392ED700B916F1 /* Assets.xcassets */,
+				B6009E5921392ED700B916F1 /* LaunchScreen.storyboard */,
+				B6009E5C21392ED700B916F1 /* Info.plist */,
+			);
+			path = FindMyTV;
+			sourceTree = "<group>";
+		};
+		B6009E6421392ED700B916F1 /* FindMyTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6009E6521392ED700B916F1 /* FindMyTVTests.swift */,
+				B6009E6721392ED700B916F1 /* Info.plist */,
+			);
+			path = FindMyTVTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6009E4C21392ED500B916F1 /* FindMyTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6009E6A21392ED700B916F1 /* Build configuration list for PBXNativeTarget "FindMyTV" */;
+			buildPhases = (
+				B6009E4921392ED500B916F1 /* Sources */,
+				B6009E4A21392ED500B916F1 /* Frameworks */,
+				B6009E4B21392ED500B916F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMyTV;
+			productName = FindMyTV;
+			productReference = B6009E4D21392ED500B916F1 /* FindMyTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6009E6021392ED700B916F1 /* FindMyTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6009E6D21392ED700B916F1 /* Build configuration list for PBXNativeTarget "FindMyTVTests" */;
+			buildPhases = (
+				B6009E5D21392ED700B916F1 /* Sources */,
+				B6009E5E21392ED700B916F1 /* Frameworks */,
+				B6009E5F21392ED700B916F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6009E6321392ED700B916F1 /* PBXTargetDependency */,
+			);
+			name = FindMyTVTests;
+			productName = FindMyTVTests;
+			productReference = B6009E6121392ED700B916F1 /* FindMyTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6009E4521392ED500B916F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Alexander Lonsky";
+				TargetAttributes = {
+					B6009E4C21392ED500B916F1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					B6009E6021392ED700B916F1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B6009E4C21392ED500B916F1;
+					};
+				};
+			};
+			buildConfigurationList = B6009E4821392ED500B916F1 /* Build configuration list for PBXProject "FindMyTV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6009E4421392ED500B916F1;
+			productRefGroup = B6009E4E21392ED500B916F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6009E4C21392ED500B916F1 /* FindMyTV */,
+				B6009E6021392ED700B916F1 /* FindMyTVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6009E4B21392ED500B916F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6009E5B21392ED700B916F1 /* LaunchScreen.storyboard in Resources */,
+				B6009E5821392ED700B916F1 /* Assets.xcassets in Resources */,
+				B6009E5621392ED500B916F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6009E5F21392ED700B916F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6009E4921392ED500B916F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6009E5321392ED500B916F1 /* ViewController.swift in Sources */,
+				B6009E5121392ED500B916F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6009E5D21392ED700B916F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6009E6621392ED700B916F1 /* FindMyTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6009E6321392ED700B916F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6009E4C21392ED500B916F1 /* FindMyTV */;
+			targetProxy = B6009E6221392ED700B916F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6009E5421392ED500B916F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6009E5521392ED500B916F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6009E5921392ED700B916F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6009E5A21392ED700B916F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6009E6821392ED700B916F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6009E6921392ED700B916F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6009E6B21392ED700B916F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6PT84BL6H;
+				INFOPLIST_FILE = FindMyTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.homesweethome.FindMyTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6009E6C21392ED700B916F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6PT84BL6H;
+				INFOPLIST_FILE = FindMyTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.homesweethome.FindMyTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6009E6E21392ED700B916F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6PT84BL6H;
+				INFOPLIST_FILE = FindMyTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.homesweethome.FindMyTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyTV.app/FindMyTV";
+			};
+			name = Debug;
+		};
+		B6009E6F21392ED700B916F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F6PT84BL6H;
+				INFOPLIST_FILE = FindMyTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.homesweethome.FindMyTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyTV.app/FindMyTV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6009E4821392ED500B916F1 /* Build configuration list for PBXProject "FindMyTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6009E6821392ED700B916F1 /* Debug */,
+				B6009E6921392ED700B916F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6009E6A21392ED700B916F1 /* Build configuration list for PBXNativeTarget "FindMyTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6009E6B21392ED700B916F1 /* Debug */,
+				B6009E6C21392ED700B916F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6009E6D21392ED700B916F1 /* Build configuration list for PBXNativeTarget "FindMyTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6009E6E21392ED700B916F1 /* Debug */,
+				B6009E6F21392ED700B916F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6009E4521392ED500B916F1 /* Project object */;
+}
