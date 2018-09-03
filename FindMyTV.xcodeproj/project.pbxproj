@@ -13,6 +13,18 @@
 		B6009E5821392ED700B916F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6009E5721392ED700B916F1 /* Assets.xcassets */; };
 		B6009E5B21392ED700B916F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6009E5921392ED700B916F1 /* LaunchScreen.storyboard */; };
 		B6009E6621392ED700B916F1 /* FindMyTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6009E6521392ED700B916F1 /* FindMyTVTests.swift */; };
+		B6CC942F213AD754002FBEBA /* SSDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC942B213AD754002FBEBA /* SSDPClient.swift */; };
+		B6CC9430213AD754002FBEBA /* SSDPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC942C213AD754002FBEBA /* SSDPResponse.swift */; };
+		B6CC9431213AD754002FBEBA /* SSDPMessageParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC942D213AD754002FBEBA /* SSDPMessageParser.swift */; };
+		B6CC9432213AD754002FBEBA /* SSDPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC942E213AD754002FBEBA /* SSDPRequest.swift */; };
+		B6CC943B213AD921002FBEBA /* CocoaAsyncSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B6CC9438213AD913002FBEBA /* CocoaAsyncSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B6CC943E213ADD20002FBEBA /* SwiftyXMLParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CC943D213ADD20002FBEBA /* SwiftyXMLParser.framework */; };
+		B6CC943F213ADE48002FBEBA /* SwiftyXMLParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CC943D213ADD20002FBEBA /* SwiftyXMLParser.framework */; };
+		B6CC9440213ADE48002FBEBA /* SwiftyXMLParser.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B6CC943D213ADD20002FBEBA /* SwiftyXMLParser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B6CC9442213C41FA002FBEBA /* UPnPDevicesDiscoverer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC9441213C41FA002FBEBA /* UPnPDevicesDiscoverer.swift */; };
+		B6CC9444213C4219002FBEBA /* UPnPDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC9443213C4219002FBEBA /* UPnPDevice.swift */; };
+		B6CC9446213C5439002FBEBA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC9445213C5439002FBEBA /* ViewModel.swift */; };
+		B6CC9448213C5968002FBEBA /* DeviceCellConfigarator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CC9447213C5968002FBEBA /* DeviceCellConfigarator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +37,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B6CC943C213AD921002FBEBA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B6CC943B213AD921002FBEBA /* CocoaAsyncSocket.framework in Embed Frameworks */,
+				B6CC9440213ADE48002FBEBA /* SwiftyXMLParser.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		B6009E4D21392ED500B916F1 /* FindMyTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6009E5021392ED500B916F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +63,16 @@
 		B6009E6121392ED700B916F1 /* FindMyTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6009E6521392ED700B916F1 /* FindMyTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyTVTests.swift; sourceTree = "<group>"; };
 		B6009E6721392ED700B916F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6CC942B213AD754002FBEBA /* SSDPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPClient.swift; sourceTree = "<group>"; };
+		B6CC942C213AD754002FBEBA /* SSDPResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPResponse.swift; sourceTree = "<group>"; };
+		B6CC942D213AD754002FBEBA /* SSDPMessageParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPMessageParser.swift; sourceTree = "<group>"; };
+		B6CC942E213AD754002FBEBA /* SSDPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSDPRequest.swift; sourceTree = "<group>"; };
+		B6CC9438213AD913002FBEBA /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = SOURCE_ROOT; };
+		B6CC943D213ADD20002FBEBA /* SwiftyXMLParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyXMLParser.framework; path = Carthage/Build/iOS/SwiftyXMLParser.framework; sourceTree = SOURCE_ROOT; };
+		B6CC9441213C41FA002FBEBA /* UPnPDevicesDiscoverer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPnPDevicesDiscoverer.swift; sourceTree = "<group>"; };
+		B6CC9443213C4219002FBEBA /* UPnPDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPnPDevice.swift; sourceTree = "<group>"; };
+		B6CC9445213C5439002FBEBA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B6CC9447213C5968002FBEBA /* DeviceCellConfigarator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCellConfigarator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6CC943E213ADD20002FBEBA /* SwiftyXMLParser.framework in Frameworks */,
+				B6CC943F213ADE48002FBEBA /* SwiftyXMLParser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				B6009E4F21392ED500B916F1 /* FindMyTV */,
+				B6CC9433213AD779002FBEBA /* Frameworks */,
 				B6009E6421392ED700B916F1 /* FindMyTVTests */,
 				B6009E4E21392ED500B916F1 /* Products */,
 			);
@@ -79,10 +119,15 @@
 			children = (
 				B6009E5021392ED500B916F1 /* AppDelegate.swift */,
 				B6009E5221392ED500B916F1 /* ViewController.swift */,
+				B6CC9447213C5968002FBEBA /* DeviceCellConfigarator.swift */,
+				B6CC9445213C5439002FBEBA /* ViewModel.swift */,
 				B6009E5421392ED500B916F1 /* Main.storyboard */,
 				B6009E5721392ED700B916F1 /* Assets.xcassets */,
 				B6009E5921392ED700B916F1 /* LaunchScreen.storyboard */,
 				B6009E5C21392ED700B916F1 /* Info.plist */,
+				B6CC942A213AD754002FBEBA /* SSDP */,
+				B6CC9441213C41FA002FBEBA /* UPnPDevicesDiscoverer.swift */,
+				B6CC9443213C4219002FBEBA /* UPnPDevice.swift */,
 			);
 			path = FindMyTV;
 			sourceTree = "<group>";
@@ -96,6 +141,26 @@
 			path = FindMyTVTests;
 			sourceTree = "<group>";
 		};
+		B6CC942A213AD754002FBEBA /* SSDP */ = {
+			isa = PBXGroup;
+			children = (
+				B6CC942B213AD754002FBEBA /* SSDPClient.swift */,
+				B6CC942C213AD754002FBEBA /* SSDPResponse.swift */,
+				B6CC942D213AD754002FBEBA /* SSDPMessageParser.swift */,
+				B6CC942E213AD754002FBEBA /* SSDPRequest.swift */,
+			);
+			path = SSDP;
+			sourceTree = "<group>";
+		};
+		B6CC9433213AD779002FBEBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6CC943D213ADD20002FBEBA /* SwiftyXMLParser.framework */,
+				B6CC9438213AD913002FBEBA /* CocoaAsyncSocket.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +171,7 @@
 				B6009E4921392ED500B916F1 /* Sources */,
 				B6009E4A21392ED500B916F1 /* Frameworks */,
 				B6009E4B21392ED500B916F1 /* Resources */,
+				B6CC943C213AD921002FBEBA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,8 +263,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6CC942F213AD754002FBEBA /* SSDPClient.swift in Sources */,
+				B6CC9446213C5439002FBEBA /* ViewModel.swift in Sources */,
 				B6009E5321392ED500B916F1 /* ViewController.swift in Sources */,
+				B6CC9430213AD754002FBEBA /* SSDPResponse.swift in Sources */,
+				B6CC9442213C41FA002FBEBA /* UPnPDevicesDiscoverer.swift in Sources */,
 				B6009E5121392ED500B916F1 /* AppDelegate.swift in Sources */,
+				B6CC9448213C5968002FBEBA /* DeviceCellConfigarator.swift in Sources */,
+				B6CC9431213AD754002FBEBA /* SSDPMessageParser.swift in Sources */,
+				B6CC9444213C4219002FBEBA /* UPnPDevice.swift in Sources */,
+				B6CC9432213AD754002FBEBA /* SSDPRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,13 +433,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F6PT84BL6H;
+				DEVELOPMENT_TEAM = B8W6H8V2S6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FindMyTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.homesweethome.FindMyTV;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.ngti.Test.FindMyTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -377,13 +456,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F6PT84BL6H;
+				DEVELOPMENT_TEAM = B8W6H8V2S6;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FindMyTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.homesweethome.FindMyTV;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.ngti.Test.FindMyTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
